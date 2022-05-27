@@ -1,0 +1,76 @@
+/* This is a comment */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#navbar {
+    background-color: rgb(95, 95, 95);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color:rgb(0, 255, 21)
+}
+
+
+/* general settings */
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: center;
+}
+
+/* "kendrick howes portfolio" + page title */
+.headingbox {
+    padding: 25px;
+    border: solid 5px rgb(255, 255, 255); width: 550px;
+}
+
+
+/* heading 1 */
+h1 {
+    display: flex;
+    justify-content: flex-center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60;
+}
+
+/* heading 2 */
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+}
+
+/* .imagecentre {
+    width: 840px;
+    height: 620px;
+    display: flex
+    justify-content; centre
+} */
+
+#bottombar {
+    background-color: rgb(95, 95, 95);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
